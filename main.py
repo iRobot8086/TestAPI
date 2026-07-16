@@ -2,7 +2,11 @@ from fastapi import FastAPI
 
 from config import BOOKS, MOVIES
 
-app = FastAPI()
+app = FastAPI(title="Data Sync API", version="0.1.0")
+
+@app.get("/")
+async def root():
+    return {"message": "Welcome to the Sync Data API"}
 
 @app.get("/health")
 async def check_health():
