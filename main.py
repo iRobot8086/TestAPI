@@ -2,7 +2,7 @@ from fastapi import FastAPI
 
 from config import BOOKS, MOVIES
 
-app = FastAPI("Test Data API For Ema")
+app = FastAPI()
 
 @app.get("/health")
 async def check_health():
