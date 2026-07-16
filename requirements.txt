@@ -1,0 +1,4 @@
+testapi v0.1.0
+Γö£ΓöÇΓöÇ fastapi v0.139.0
+Γö£ΓöÇΓöÇ python-dotenv v1.2.2
+ΓööΓöÇΓöÇ uvicorn[standard] v0.51.0
